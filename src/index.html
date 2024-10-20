@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+  </head>
+  <body class="bg-sky-100">
+    <section class="w-full h-screen flex items-center">
+      <div
+        id="container"
+        class="font-principal mx-auto w-80 rounded-xl shadow-2xl overflow-hidden md:w-2/3 md:max-w-screen-md"
+      >
+        <div
+          id="container-top"
+          class="bg-white flex flex-col gap-4 p-6 md:p-10"
+        >
+          <p class="text-teal-500 font-bold text-xl">Join our community</p>
+          <p class="text-lime-500 font-semibold">
+            30-day, hassle-free money back guarantee
+          </p>
+          <p class="text-gray-400 font-medium">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div id="container-botton" class="text-white md:flex">
+          <div
+            id="suscription"
+            class="md:w-1/2 bg-teal-500 p-6 flex flex-col gap-4 md:p-10"
+          >
+            <p class="font-bold">Monthly Subscription</p>
+            <div class="flex items-center gap-3">
+              <p class="font-bold text-3xl">&dollar;29</p>
+              <p class="text-sm font-extralight">per month</p>
+            </div>
+            <p class="font-light">Full access for less than &dollar;1 a day</p>
+            <button
+              class="w-full bg-lime-400 hover:bg-lime-500 p-3 mt-3 rounded-lg shadow-xl"
+            >
+              Sign Up
+            </button>
+          </div>
+          <div id="us" class="md:w-1/2 bg-teal-400 p-6 md:p-10">
+            <p class="font-bold text-xl">Why Us</p>
+            <ul class="font-thin">
+              <li>Tutorials by industry experts</li>
+              <li>Peer &amp; expert code review</li>
+              <li>Coding exercises</li>
+              <li>Access to our GitHub repos</li>
+              <li>Community forum</li>
+              <li>Flashcard decks</li>
+              <li>New videos every week</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
